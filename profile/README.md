@@ -41,9 +41,12 @@ Graphics clauses — `VISUALISE`, `DRAW`, `SCALE`, `LABEL` — into SQL workflow
 ## Get started
 
 ```bash
-uv tool install \
-  https://github.com/glyf-data/glyf/releases/download/v0.2.0/glyf-0.2.0-<platform>.whl
+uv tool install glyf-core   # PyPI package is glyf-core; the command is glyf
+glyf --version
 ```
+
+Wheels ship for Linux, macOS, and Windows on Python 3.11+. Other options are in
+the [installation guide](https://glyf.pages.dev/docs/get-started/installation).
 
 Then follow the [Quickstart](https://glyf.pages.dev/docs/get-started/quickstart)
 to scaffold your first chart, or
