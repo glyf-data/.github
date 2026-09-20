@@ -46,17 +46,17 @@ glyf --version
 ```
 
 Wheels ship for Linux, macOS, and Windows on Python 3.11+. Other options are in
-the [installation guide](https://glyf.pages.dev/docs/get-started/installation).
+the [installation guide](https://glyfdata.com/docs/get-started/installation).
 
-Then follow the [Quickstart](https://glyf.pages.dev/docs/get-started/quickstart)
+Then follow the [Quickstart](https://glyfdata.com/docs/get-started/quickstart)
 to scaffold your first chart, or
-[Existing dbt project](https://glyf.pages.dev/docs/get-started/existing-dbt-project)
+[Existing dbt project](https://glyfdata.com/docs/get-started/existing-dbt-project)
 to add `glyf` to a repo you already have.
 
 ## Resources
 
-- **Documentation** — <https://glyf.pages.dev>
-- **Examples gallery** — <https://glyf.pages.dev/docs/examples/gallery>
+- **Documentation** — <https://glyfdata.com/docs>
+- **Examples gallery** — <https://glyfdata.com/docs/examples/gallery>
 - **Issues** — <https://github.com/glyf-data/glyf/issues>
 - **Discussions** — <https://github.com/glyf-data/glyf/discussions>
 
