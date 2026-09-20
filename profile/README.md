@@ -37,6 +37,8 @@ Graphics clauses — `VISUALISE`, `DRAW`, `SCALE`, `LABEL` — into SQL workflow
 | Repository | Description | Language |
 | --- | --- | --- |
 | [glyf](https://github.com/glyf-data/glyf) | The `glyf` CLI, the `.ggsql` chart compiler, and the dashboard generator | Python, Rust |
+| [glyf-js](https://github.com/glyf-data/glyf-js) | React components and a client for putting `glyf` charts and dashboards into a web application, from the `bundle.json` a build writes. Experimental. | TypeScript |
+| [homebrew-glyf](https://github.com/glyf-data/homebrew-glyf) | The Homebrew tap: `brew install glyf-data/glyf/glyf` | Ruby |
 
 ## Get started
 
@@ -49,16 +51,22 @@ Wheels ship for Linux, macOS, and Windows on Python 3.11+. Other options are in
 the [installation guide](https://glyfdata.com/docs/get-started/installation).
 
 Then follow the [Quickstart](https://glyfdata.com/docs/get-started/quickstart)
-to scaffold your first chart, or
-[Existing dbt project](https://glyfdata.com/docs/get-started/existing-dbt-project)
-to add `glyf` to a repo you already have.
+to scaffold your first chart in a dbt project you already have. The
+[dbt integration guide](https://glyfdata.com/docs/guides/dbt-integration)
+covers how `glyf` reads dbt's artifacts.
 
 ## Resources
 
-- **Documentation** — <https://glyfdata.com/docs>
+- **Documentation** — <https://glyfdata.com/docs/intro>
 - **Examples gallery** — <https://glyfdata.com/docs/examples/gallery>
-- **Issues** — <https://github.com/glyf-data/glyf/issues>
+- **Roadmap** — <https://glyfdata.com/docs/resources/roadmap>
+
+## Community
+
+- **Slack** — [join the glyf community](https://glyfdata.com/slack). The
+  quickest way to get help; ask in the help channel.
 - **Discussions** — <https://github.com/glyf-data/glyf/discussions>
+- **Issues** — <https://github.com/glyf-data/glyf/issues>
 
 ## Contributing
 
